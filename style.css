@@ -2,13 +2,15 @@
   margin: 10px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  /* grid-column: 25px; */
+  gap: 25px;
+
 }
 
 .items {
   border: 2px solid rgb(229, 85, 85);
   border-radius: 10px;
   margin: 5px;
+  background-color: darkorange;
   padding: 10px;
 }
 @media screen and (max-width:580px) {
